@@ -23,11 +23,11 @@ class Form extends Component {
         return (
         <div>
             <form>
-                <div class="mb-3">
+                <div className="mb-3">
                     <label  className="form-label">userName</label>
                     <Input id='userName' type='text'/>
                 </div>
-                <div class="mb-3">
+                <div className="mb-3">
                     <label className="form-label">password</label>
                     <Input id='password' type='password'/>
                 </div>

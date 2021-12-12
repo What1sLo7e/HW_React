@@ -1,16 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Counter from './components/Counter'
-import Range from './components/Range'
-import Form from './components/Form'
-function App() {
-  return (
-    <div >
-      <Counter/>
-      <Range/>
-      <Form/>
-    </div>
-  );
-}
+// import logo from './logo.svg';
+// import './App.css';
+// import 'bootstrap/dist/css/bootstrap.css'
+// import Movies from './components/Movies';
 
-export default App;
+// function App() {
+//   return (
+//     <div >
+//           <Movies/>
+//     </div> );
+// }
+
+// export default App;
