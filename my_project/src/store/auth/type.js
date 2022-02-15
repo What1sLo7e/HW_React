@@ -1,0 +1,4 @@
+export const ISAUTH_TRUE = 'AUTH/ISAUTH_TRUE' 
+export const ISAUTH_FALSE = 'AUTH/ISAUTH_FALSE' 
+export const ISADMIN_TRUE = 'ADMIN/ISAUTH_TRUE' 
+export const ISADMIN_FALSE = 'ADMIN/ISAUTH_FALSE' 
