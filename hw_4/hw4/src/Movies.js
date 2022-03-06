@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Controls from  './components/Controls'
 import MoviesList from './components/MoviesList';
 import 'bootstrap/dist/css/bootstrap.css'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 
 const normalizeMovies = (movies) => movies.slice(0,19).map((movie) => ({
@@ -56,8 +57,10 @@ const Movies = () => {
 
     return (
         <div>
-            <Controls {...{ search, sort, onSearch, onSort}}/>
-            <MoviesList movies={filterFn(movies, sort, search)}/>
+           
+                    <Controls {...{ search, sort, onSearch, onSort}}/>
+                    <MoviesList movies={filterFn(movies, sort, search)}/>
+               
         </div>
     )
     
